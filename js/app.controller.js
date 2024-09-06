@@ -265,6 +265,7 @@ function onSetSortBy() {
   const sortBy = {}
   sortBy[prop] = isDesc ? -1 : 1
 
+
   // Shorter Syntax:
   // const sortBy = {
   //     [prop] : (isDesc)? -1 : 1
